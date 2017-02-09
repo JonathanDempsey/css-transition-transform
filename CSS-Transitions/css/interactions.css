@@ -1,0 +1,21 @@
+/* =================================
+  Button Transitions
+==================================== */
+
+.button {
+	color: #4a89ca;
+	border: 2px solid;
+	transition-property: background, border-radius, color; /* Ensures only these vslues are transitioned */
+	transition-duration: .4s, .8s, .4s;
+}
+
+.button:hover {
+	color: white;
+	background: #4a89ca;
+	border-radius: 1em;
+}
+
+img:hover {
+	opacity: 0;
+	transition-duration: .4s;
+}
